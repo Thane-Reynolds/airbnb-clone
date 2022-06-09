@@ -23,7 +23,8 @@ body{
 .slider{
   display: flex;
   margin: 40px 36px 0 36px;
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: scroll;
   padding: 9px 3px;
   gap: 18px;
 }

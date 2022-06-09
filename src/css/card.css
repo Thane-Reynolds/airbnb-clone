@@ -1,6 +1,7 @@
 .card{
   display: flex;
   flex-direction: column;
+  position:relative;
 }
 .card--image-div{
   display: flex;
@@ -18,10 +19,10 @@
   background-color: white;
   text-transform: uppercase;
   font-size: 10.25px;
-  font-weight: 400;
-  margin-bottom: -26px ;
-  margin-left: 6px;
-  z-index: 2;
+  font-weight: 600;
+  position: absolute;
+  top: 6px;
+  left: 6px;
   justify-content: center;
   text-align: center;
   align-items: center;
