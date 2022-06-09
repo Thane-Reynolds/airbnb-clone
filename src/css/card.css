@@ -1,0 +1,56 @@
+.card{
+  display: flex;
+  flex-direction: column;
+}
+.card--image-div{
+  display: flex;
+  flex-direction: column;
+  max-width: 176px;
+  max-height: 235px;
+}
+.card--focusimage{
+  border-radius: 9px;
+}
+.card--context{
+  width: 61px;
+  height: 20px;
+  background-color: white;
+  text-transform: uppercase;
+  font-size: 10.25px;
+  font-weight: 400;
+  margin-bottom: -26px ;
+  margin-left: 6px;
+  z-index: 2;
+  text-align: center;
+}
+.card--textcontent{
+  width: 176px;
+  font-size: 12px;
+  font-weight: 300;
+}
+.card--ratingandlocation{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 9px;
+  gap: 2px;
+  margin-bottom: 0;
+}
+.card--star{
+  height: 14px;
+  width: 14px;
+}
+.card--people-location{
+  color: #918E9B;
+}
+.card--eventdescription{
+  margin: 0;
+  margin-top: 8px;
+}
+.card--cost{
+  margin: 0;
+  margin-top: 8px;
+}
+.card--from{
+  font-weight: 600;
+}
