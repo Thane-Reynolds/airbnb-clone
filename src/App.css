@@ -21,9 +21,11 @@ body{
 
 }
 .slider{
+  display: flex;
   margin: 40px 36px 0 36px;
   overflow: hidden;
   padding: 9px 3px;
+  gap: 18px;
 }
 
 @import './css/navbar.css';

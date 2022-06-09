@@ -12,6 +12,7 @@
   border-radius: 9px;
 }
 .card--context{
+  display: flex;
   width: 61px;
   height: 20px;
   background-color: white;
@@ -21,13 +22,16 @@
   margin-bottom: -26px ;
   margin-left: 6px;
   z-index: 2;
+  justify-content: center;
   text-align: center;
+  align-items: center;
 }
 .card--textcontent{
   width: 176px;
   font-size: 12px;
   font-weight: 300;
 }
+
 .card--ratingandlocation{
   display: flex;
   flex-direction: row;
