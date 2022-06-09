@@ -1,7 +1,4 @@
 import './App.css';
-import './css/navbar.css'
-import './css/hero.css'
-import './css/card.css'
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero'
 import { Card } from './components/Card'
@@ -14,7 +11,7 @@ function App() {
         <Hero />
         <div className="slider">
           <Card 
-          img="/images/katie-zaferes.png"
+          img="katie-zaferes.png"
           rating={5.0} 
           reviewCount={6} 
           country="USA" 

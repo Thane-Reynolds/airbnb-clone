@@ -4,7 +4,7 @@
 body{
   margin: 0;
   padding: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: var(--font);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,3 +25,8 @@ body{
   overflow: hidden;
   padding: 9px 3px;
 }
+
+@import './css/navbar.css';
+@import './css/card.css';
+@import './css/hero.css';
+@import './index.css'
