@@ -1,4 +1,4 @@
-# This is a project for the Scrimba Learn React for free course. Built locally using create react app
+# This is a project for the Scrimba "Learn React for free" course. Built locally using create react app
 
 ## Available Scripts
 

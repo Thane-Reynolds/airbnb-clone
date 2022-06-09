@@ -1,10 +1,8 @@
-import grid from '../images/photo-grid.png'
-
 export function Hero(){
   return(
     <section className="hero">
       <div className="hero--img-div">
-        <img className="hero--grid-img" src= { grid } alt="cool events" />
+        <img className="hero--grid-img" src="/images/photo-grid.png" alt="cool events" />
       </div>
       <div className="hero--text">
         <h1 className="hero--title">Online Experiences</h1>
