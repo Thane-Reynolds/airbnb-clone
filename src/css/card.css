@@ -1,56 +1,59 @@
-.card{
-  display: flex;
-  flex-direction: column;
+.card {
+   display: flex;
+   flex-direction: column;
 }
-.card--image-div{
-  display: flex;
-  flex-direction: column;
-  max-width: 176px;
-  max-height: 235px;
+.card-clicked {
+   border: 10px solid purple;
 }
-.card--focusimage{
-  border-radius: 9px;
+.card--image-div {
+   display: flex;
+   flex-direction: column;
+   max-width: 176px;
+   max-height: 235px;
 }
-.card--context{
-  width: 61px;
-  height: 20px;
-  background-color: white;
-  text-transform: uppercase;
-  font-size: 10.25px;
-  font-weight: 400;
-  margin-bottom: -26px ;
-  margin-left: 6px;
-  z-index: 2;
-  text-align: center;
+.card--focusimage {
+   border-radius: 9px;
 }
-.card--textcontent{
-  width: 176px;
-  font-size: 12px;
-  font-weight: 300;
+.card--context {
+   width: 61px;
+   height: 20px;
+   background-color: white;
+   text-transform: uppercase;
+   font-size: 10.25px;
+   font-weight: 400;
+   margin-bottom: -26px;
+   margin-left: 6px;
+   z-index: 2;
+   text-align: center;
 }
-.card--ratingandlocation{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 9px;
-  gap: 2px;
-  margin-bottom: 0;
+.card--textcontent {
+   width: 176px;
+   font-size: 12px;
+   font-weight: 300;
 }
-.card--star{
-  height: 14px;
-  width: 14px;
+.card--ratingandlocation {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   margin-top: 9px;
+   gap: 2px;
+   margin-bottom: 0;
 }
-.card--people-location{
-  color: #918E9B;
+.card--star {
+   height: 14px;
+   width: 14px;
 }
-.card--eventdescription{
-  margin: 0;
-  margin-top: 8px;
+.card--people-location {
+   color: #918e9b;
 }
-.card--cost{
-  margin: 0;
-  margin-top: 8px;
+.card--eventdescription {
+   margin: 0;
+   margin-top: 8px;
 }
-.card--from{
-  font-weight: 600;
+.card--cost {
+   margin: 0;
+   margin-top: 8px;
+}
+.card--from {
+   font-weight: 600;
 }
