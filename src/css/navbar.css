@@ -1,0 +1,17 @@
+.navbar{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: white;
+  height: 70px;
+  width: 100%;
+  padding: 22px 0 22px 30px;
+  box-shadow: 0px 3px 7.5px rgba(0, 0, 0, 0.1);
+}
+.navbar--logo-div{
+  width: 100%;
+  max-width: 1400px;
+}
+.navbar img{
+  max-width: 100px;
+}
