@@ -1,3 +1,7 @@
+:root{
+  --font: 'Poppins', sans-serif;
+
+}
 .root{
   display: flex;
   flex-direction: column;
